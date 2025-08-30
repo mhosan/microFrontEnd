@@ -1,4 +1,4 @@
 ## Instalar libreria native-federation:
-´´´bash
+```bash
 npm i @angular-architects/native-federation
-´´´
+```
