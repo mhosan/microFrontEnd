@@ -3,10 +3,12 @@
     width: 50%;
     height: 40vh;
     background-color: lightblue;
+    overflow: auto;
 }
 .derecha {
     float: right;
     width: 50%;
     height: 40vh;
-    background-color: lightgreen;  
+    background-color: lightgreen;
+    overflow: auto; 
 }
