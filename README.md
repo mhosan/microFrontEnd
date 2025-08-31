@@ -3,7 +3,7 @@
 npm i @angular-architects/native-federation
 ```
 ## Configurar el proyecto para federación nativa
-En este caso es un remte, por lo tanto ponerlo en la cofiguración.
+En este caso es un remote, por lo tanto ponerlo en la cofiguración. Cuidado con el puerto.
 ```bash
 ng g @angular-architects/native-federation:init --project mfe2 --port 4202 --type remote
 ```
