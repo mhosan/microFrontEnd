@@ -1,0 +1,12 @@
+.izquierda {
+    float: left;
+    width: 50%;
+    height: 40vh;
+    background-color: lightblue;
+}
+.derecha {
+    float: right;
+    width: 50%;
+    height: 40vh;
+    background-color: lightgreen;  
+}
