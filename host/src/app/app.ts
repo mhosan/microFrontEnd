@@ -20,7 +20,7 @@ export class App implements OnInit, OnDestroy{
 
   async ngOnInit() {
     try {
-      const mfe1 =await this.microFrontend.loadRemoteComponent(4201, 'mfe1');
+      const mfe1 =await this.microFrontend.loadRemoteComponent(4201, 'mfe1'); 
       this.listContainer.clear();
       this.listComponentRefmfe1=this.listContainer.createComponent(mfe1.App);
       this.listComponentRefmfe1.changeDetectorRef.detectChanges();
