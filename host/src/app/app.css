@@ -1,14 +1,36 @@
 .izquierda {
     float: left;
-    width: 50%;
-    height: 40vh;
+    width: 49%;
+    height: 50vh;
     background-color: lightblue;
     overflow: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 .derecha {
     float: right;
-    width: 50%;
-    height: 40vh;
+    width: 49%;
+    height: 50vh;
     background-color: lightgreen;
     overflow: auto; 
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.izquierda-abajo {
+    float: left;
+    width: 49%;
+    height: 50vh;
+    background-color: lightcoral;
+    overflow: auto;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.derecha-abajo {
+    float: right;
+    width: 49%;
+    height: 50vh;
+    background-color: rgb(170, 170, 23);
+    overflow: auto;
+    margin-left: 10px;
+    margin-top: 10px;
 }
