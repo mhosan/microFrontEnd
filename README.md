@@ -6,12 +6,12 @@ npm i @angular-architects/native-federation -D
 ### Remote. Cuidado con el puerto y el tipo de proyecto
 
 ```bash
-ng add @angular-architects/native-federation:init --project mfe2 --port 4202 --type remote
+ng g @angular-architects/native-federation:init --project mfe2 --port 4202 --type remote
 ```
 ### Host. Cuidado con el puerto y el tipo de proyecto
 
 ```bash
-ng add @angular-architects/native-federation:init --project host --port 4200 --type dynamic-host
+ng g @angular-architects/native-federation:init --project host --port 4200 --type dynamic-host
 ```
 En el contexto de @angular-architects/native-federation, el comando ng add se encargará de:
 
