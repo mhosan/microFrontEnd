@@ -67,6 +67,17 @@ export class App implements OnInit, OnDestroy{
       console.error(`Error loading mfe4 remote component:`, error);
     }
   }
+  sendEvent() {
+   const eventFromHost = new CustomEvent('msgFromHost', {
+      detail: {
+        motivo: "Mensaje desde Host:",
+        msg: "Hola reputo mundo!",
+        timestamp: new Date()
+      }
+    });
+    // Enviar al "aire" - cualquiera puede escucharlo
+    window.dispatchEvent(eventFromHost);
+  }
 
   ngOnDestroy(): void {
     if (this.listComponentRefmfe1) {
